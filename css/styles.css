@@ -1,19 +1,19 @@
 body {
-  margin: 0;
-  padding: 0;
-}
-
-#root {
-  font-family: Arial;
-  background: #00040C;
   width: 100vw;
-  height: 100vh
+  height: 100vh;
+  background: black;
+  position: relative;
 }
 
-.text-gradient {
-    letter-spacing: -0.03em;
-    font-feature-settings: 'ordn' on, 'salt' on, 'ss01' on, 'ss02' on;
-    background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: transparent;
+  font-family: Arial;
+  font-size: 50px;
+  text-align: center;
+  display: table;
+  -webkit-text-stroke: .02rem white;
 }
